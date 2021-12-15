@@ -35,14 +35,13 @@ draw_apple="set;"
 }
 
 function preload(){
-  loadImage("apple.png");
   apple="apple.png";
 }
 
 function setup() {
  screen_width= window.innerWidth;
  screen_height= window.innerHeight;
- createCanvas(screen_width, screen_height-150);
+ canvas=createCanvas(screen_width, screen_height-150);
  canvas.position(0, 150);
 }
 
